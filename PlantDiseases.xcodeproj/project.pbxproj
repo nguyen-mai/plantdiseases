@@ -204,6 +204,15 @@
 			path = PlantDiseasesUITests;
 			sourceTree = "<group>";
 		};
+		1841C6B8271C9A85009B9A96 /* UICommon */ = {
+			isa = PBXGroup;
+			children = (
+				181F0DEF2719D6600099EFAC /* Buttons */,
+				1810CD29271A8BD500698611 /* Labels */,
+			);
+			path = UICommon;
+			sourceTree = "<group>";
+		};
 		187AD447271A788200B7551D /* DiseasesList */ = {
 			isa = PBXGroup;
 			children = (
@@ -233,8 +242,7 @@
 		18971ECB2717D39C006927B3 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				1810CD29271A8BD500698611 /* Labels */,
-				181F0DEF2719D6600099EFAC /* Buttons */,
+				1841C6B8271C9A85009B9A96 /* UICommon */,
 				1821F67727175EFE00E0446B /* LaunchScreen.storyboard */,
 				1821F66F27175EFB00E0446B /* Main.storyboard */,
 			);

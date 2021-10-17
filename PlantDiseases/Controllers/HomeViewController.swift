@@ -83,9 +83,8 @@ class HomeViewController: UIViewController, UIImagePickerControllerDelegate, UIN
                 DispatchQueue.main.async {[weak self] in
                     let controller = ResultShowViewController()
                     controller.uploadImage.image = pickedImage
-                    let str = "\(topResult.identifier)  \(predconfidence)"
-                    controller.resultLabel.text = str
-                    controller.confidenceLabel.text = predconfidence
+                    controller.result.text = topResult.identifier
+                    controller.accuracy.text = predconfidence + "%"
                     controller.modalPresentationStyle = .fullScreen
                     self?.present(controller, animated: true)
                 }

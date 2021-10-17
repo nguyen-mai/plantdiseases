@@ -18,7 +18,7 @@ class LargeLabel: UILabel {
         
         translatesAutoresizingMaskIntoConstraints = false
         backgroundColor = UIColor.white
-        font = UIFont(name: "Avenir", size: 22)
+        font = UIFont(name: "Avenir", size: 14)
         textColor = UIColor.black
     }
     
