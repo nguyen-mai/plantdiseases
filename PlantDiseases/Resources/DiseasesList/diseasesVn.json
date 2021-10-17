@@ -1,0 +1,158 @@
+{
+    "data":
+        {
+            "name": "Apple Scab"
+            "about": ""
+            "prevention":
+            "treatment":
+        },
+        {
+            "name": "Apple Black Rot"
+            "about":
+            "prevention":
+            "treatment":
+        },
+        {
+            "name": "Cedar Apple Rust"
+            "about":
+            "prevention":
+            "treatment":
+        },
+        {
+            "name": "Cherry Powdery Mildew"
+            "about":
+            "prevention":
+            "treatment":
+        },
+        {
+            "name": "Corn Cercospora Leaf Spot Gray Leaf Spot"
+            "about":
+            "prevention":
+            "treatment":
+        },
+        {
+            "name": "Corn Common Rust"
+            "about":
+            "prevention":
+            "treatment":
+        },{
+            "name": "Corn Northern Leaf Blight"
+            "about":
+            "prevention":
+            "treatment":
+        },
+        {
+            "name": "Grape Black Rot"
+            "about":
+            "prevention":
+            "treatment":
+        },
+        {
+            "name": "Grape Esca(Black Measles)"
+            "about":
+            "prevention":
+            "treatment":
+        },
+        {
+            "name": "Grape Leaf Blight(Isariopsis Leaf Spot)"
+            "about":
+            "prevention":
+            "treatment":
+        },
+        {
+            "name": "Orange Haunglongbing(Citrus Greening)"
+            "about":
+            "prevention":
+            "treatment":
+        },
+        {
+            "name": "Peach Bacterial Spot"
+            "about":
+            "prevention":
+            "treatment":
+        },
+        {
+            "name": "Pepper Bell Bacterial Spot"
+            "about":
+            "prevention":
+            "treatment":
+        },
+        {
+            "name": "Potato Early Blight"
+            "about":
+            "prevention":
+            "treatment":
+        },
+        {
+            "name": "Potato Late Blight"
+            "about":
+            "prevention":
+            "treatment":
+        },
+        {
+            "name": "Squash Powdery Mildew"
+            "about":
+            "prevention":
+            "treatment":
+        },
+        {
+            "name": "Strawberry Leaf Scorch"
+            "about":
+            "prevention":
+            "treatment":
+        },
+        {
+            "name": "Tomato Bacterial Spot"
+            "about":
+            "prevention":
+            "treatment":
+        },
+        {
+            "name": "Tomato Early Blight"
+            "about":
+            "prevention":
+            "treatment":
+        },
+        {
+            "name": "Tomato Late Blight"
+            "about":
+            "prevention":
+            "treatment":
+        },
+        {
+            "name": "Tomato Leaf Mold"
+            "about":
+            "prevention":
+            "treatment":
+        },
+        {
+            "name": "Tomato Septoria Leaf Spot"
+            "about":
+            "prevention":
+            "treatment":
+        },
+        {
+            "name": "Tomato Spider Mites Two Spotted Spider Mite"
+            "about":
+            "prevention":
+            "treatment":
+        },
+        {
+            "name": "Tomato Target Spot"
+            "about":
+            "prevention":
+            "treatment":
+        },
+        {
+            "name": "Tomato Yellow Leaf Curl Virus"
+            "about":
+            "prevention":
+            "treatment":
+        },
+        {
+            "name": "Tomato Mosaic Virus"
+            "about":
+            "prevention":
+            "treatment":
+        }
+}

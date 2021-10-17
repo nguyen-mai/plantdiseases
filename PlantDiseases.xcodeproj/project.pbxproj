@@ -7,9 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1803B65127198E8A0009B16F /* UIView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803B64C27198E8A0009B16F /* UIView+Extensions.swift */; };
+		1803B65227198E8A0009B16F /* UIButton+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803B64D27198E8A0009B16F /* UIButton+Extension.swift */; };
+		1803B65327198E8A0009B16F /* UIColor+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803B64E27198E8A0009B16F /* UIColor+Extensions.swift */; };
+		1803B65427198E8A0009B16F /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803B64F27198E8A0009B16F /* UIImage+Extension.swift */; };
+		1803B65527198E8A0009B16F /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1803B65027198E8A0009B16F /* Date+Extension.swift */; };
+		181F0DF72719D6600099EFAC /* BtnVideLarge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F0DF12719D6600099EFAC /* BtnVideLarge.swift */; };
+		181F0DF82719D6600099EFAC /* BtnVide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F0DF22719D6600099EFAC /* BtnVide.swift */; };
+		181F0DF92719D6600099EFAC /* BtnPleinLarge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F0DF42719D6600099EFAC /* BtnPleinLarge.swift */; };
+		181F0DFA2719D6600099EFAC /* BtnPlein.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F0DF52719D6600099EFAC /* BtnPlein.swift */; };
+		181F0DFB2719D6600099EFAC /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 181F0DF62719D6600099EFAC /* Button.swift */; };
 		1821F66A27175EFB00E0446B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1821F66927175EFB00E0446B /* AppDelegate.swift */; };
 		1821F66C27175EFB00E0446B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1821F66B27175EFB00E0446B /* SceneDelegate.swift */; };
-		1821F66E27175EFB00E0446B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1821F66D27175EFB00E0446B /* ViewController.swift */; };
+		1821F66E27175EFB00E0446B /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1821F66D27175EFB00E0446B /* HomeViewController.swift */; };
 		1821F67127175EFB00E0446B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1821F66F27175EFB00E0446B /* Main.storyboard */; };
 		1821F67427175EFB00E0446B /* PlantDiseases.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1821F67227175EFB00E0446B /* PlantDiseases.xcdatamodeld */; };
 		1821F67627175EFE00E0446B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1821F67527175EFE00E0446B /* Assets.xcassets */; };
@@ -17,6 +27,15 @@
 		1821F68427175EFE00E0446B /* PlantDiseasesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1821F68327175EFE00E0446B /* PlantDiseasesTests.swift */; };
 		1821F68E27175EFE00E0446B /* PlantDiseasesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1821F68D27175EFE00E0446B /* PlantDiseasesUITests.swift */; };
 		1821F69027175EFE00E0446B /* PlantDiseasesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1821F68F27175EFE00E0446B /* PlantDiseasesUITestsLaunchTests.swift */; };
+		182AB13F271AC9B900EB4974 /* LargeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182AB13E271AC9B900EB4974 /* LargeLabel.swift */; };
+		1876A563271971E1005BD87C /* DiseasesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876A562271971E1005BD87C /* DiseasesListViewController.swift */; };
+		187AD446271A74A000B7551D /* diseasesEn.json in Resources */ = {isa = PBXBuildFile; fileRef = 187AD445271A74A000B7551D /* diseasesEn.json */; };
+		187AD449271A78F400B7551D /* diseasesVn.json in Resources */ = {isa = PBXBuildFile; fileRef = 187AD448271A78F400B7551D /* diseasesVn.json */; };
+		187AD44B271A7CBC00B7551D /* DoneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187AD44A271A7CBC00B7551D /* DoneButton.swift */; };
+		1892851827182C7D00C1B156 /* ResultShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1892851727182C7D00C1B156 /* ResultShowViewController.swift */; };
+		18971ED22717D4CD006927B3 /* PredictionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18971ED12717D4CD006927B3 /* PredictionViewModel.swift */; };
+		18971ED42717D4EF006927B3 /* ClassifierModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 18971ED32717D4EF006927B3 /* ClassifierModel.mlmodel */; };
+		18D7C7E3271C68B100F4273D /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D7C7E2271C68B100F4273D /* BackButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +56,20 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1803B64C27198E8A0009B16F /* UIView+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIView+Extensions.swift"; sourceTree = "<group>"; };
+		1803B64D27198E8A0009B16F /* UIButton+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIButton+Extension.swift"; sourceTree = "<group>"; };
+		1803B64E27198E8A0009B16F /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
+		1803B64F27198E8A0009B16F /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		1803B65027198E8A0009B16F /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		181F0DF12719D6600099EFAC /* BtnVideLarge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BtnVideLarge.swift; sourceTree = "<group>"; };
+		181F0DF22719D6600099EFAC /* BtnVide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BtnVide.swift; sourceTree = "<group>"; };
+		181F0DF42719D6600099EFAC /* BtnPleinLarge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BtnPleinLarge.swift; sourceTree = "<group>"; };
+		181F0DF52719D6600099EFAC /* BtnPlein.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BtnPlein.swift; sourceTree = "<group>"; };
+		181F0DF62719D6600099EFAC /* Button.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 		1821F66627175EFB00E0446B /* PlantDiseases.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PlantDiseases.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1821F66927175EFB00E0446B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1821F66B27175EFB00E0446B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		1821F66D27175EFB00E0446B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1821F66D27175EFB00E0446B /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		1821F67027175EFB00E0446B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1821F67327175EFB00E0446B /* PlantDiseases.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PlantDiseases.xcdatamodel; sourceTree = "<group>"; };
 		1821F67527175EFE00E0446B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +80,15 @@
 		1821F68927175EFE00E0446B /* PlantDiseasesUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PlantDiseasesUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1821F68D27175EFE00E0446B /* PlantDiseasesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDiseasesUITests.swift; sourceTree = "<group>"; };
 		1821F68F27175EFE00E0446B /* PlantDiseasesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDiseasesUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		182AB13E271AC9B900EB4974 /* LargeLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeLabel.swift; sourceTree = "<group>"; };
+		1876A562271971E1005BD87C /* DiseasesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiseasesListViewController.swift; sourceTree = "<group>"; };
+		187AD445271A74A000B7551D /* diseasesEn.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = diseasesEn.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
+		187AD448271A78F400B7551D /* diseasesVn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = diseasesVn.json; sourceTree = "<group>"; };
+		187AD44A271A7CBC00B7551D /* DoneButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneButton.swift; sourceTree = "<group>"; };
+		1892851727182C7D00C1B156 /* ResultShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultShowViewController.swift; sourceTree = "<group>"; };
+		18971ED12717D4CD006927B3 /* PredictionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionViewModel.swift; sourceTree = "<group>"; };
+		18971ED32717D4EF006927B3 /* ClassifierModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ClassifierModel.mlmodel; sourceTree = "<group>"; };
+		18D7C7E2271C68B100F4273D /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +116,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1810CD29271A8BD500698611 /* Labels */ = {
+			isa = PBXGroup;
+			children = (
+				182AB13E271AC9B900EB4974 /* LargeLabel.swift */,
+			);
+			path = Labels;
+			sourceTree = "<group>";
+		};
+		181F0DEF2719D6600099EFAC /* Buttons */ = {
+			isa = PBXGroup;
+			children = (
+				181F0DF02719D6600099EFAC /* BtnVide */,
+				181F0DF32719D6600099EFAC /* BtnPlein */,
+				181F0DF62719D6600099EFAC /* Button.swift */,
+			);
+			path = Buttons;
+			sourceTree = "<group>";
+		};
+		181F0DF02719D6600099EFAC /* BtnVide */ = {
+			isa = PBXGroup;
+			children = (
+				181F0DF12719D6600099EFAC /* BtnVideLarge.swift */,
+				181F0DF22719D6600099EFAC /* BtnVide.swift */,
+			);
+			path = BtnVide;
+			sourceTree = "<group>";
+		};
+		181F0DF32719D6600099EFAC /* BtnPlein */ = {
+			isa = PBXGroup;
+			children = (
+				181F0DF42719D6600099EFAC /* BtnPleinLarge.swift */,
+				181F0DF52719D6600099EFAC /* BtnPlein.swift */,
+				187AD44A271A7CBC00B7551D /* DoneButton.swift */,
+				18D7C7E2271C68B100F4273D /* BackButton.swift */,
+			);
+			path = BtnPlein;
+			sourceTree = "<group>";
+		};
 		1821F65D27175EFB00E0446B = {
 			isa = PBXGroup;
 			children = (
@@ -101,12 +177,10 @@
 		1821F66827175EFB00E0446B /* PlantDiseases */ = {
 			isa = PBXGroup;
 			children = (
-				1821F66927175EFB00E0446B /* AppDelegate.swift */,
-				1821F66B27175EFB00E0446B /* SceneDelegate.swift */,
-				1821F66D27175EFB00E0446B /* ViewController.swift */,
-				1821F66F27175EFB00E0446B /* Main.storyboard */,
-				1821F67527175EFE00E0446B /* Assets.xcassets */,
-				1821F67727175EFE00E0446B /* LaunchScreen.storyboard */,
+				18971ECD2717D3BC006927B3 /* Resources */,
+				18971ECC2717D3A3006927B3 /* Controllers */,
+				18971ECB2717D39C006927B3 /* Views */,
+				18971ECA2717D395006927B3 /* Models */,
 				1821F67A27175EFE00E0446B /* Info.plist */,
 				1821F67227175EFB00E0446B /* PlantDiseases.xcdatamodeld */,
 			);
@@ -128,6 +202,77 @@
 				1821F68F27175EFE00E0446B /* PlantDiseasesUITestsLaunchTests.swift */,
 			);
 			path = PlantDiseasesUITests;
+			sourceTree = "<group>";
+		};
+		187AD447271A788200B7551D /* DiseasesList */ = {
+			isa = PBXGroup;
+			children = (
+				187AD445271A74A000B7551D /* diseasesEn.json */,
+				187AD448271A78F400B7551D /* diseasesVn.json */,
+			);
+			path = DiseasesList;
+			sourceTree = "<group>";
+		};
+		1892851927182CD300C1B156 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				1821F66927175EFB00E0446B /* AppDelegate.swift */,
+				1821F66B27175EFB00E0446B /* SceneDelegate.swift */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		18971ECA2717D395006927B3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				18971ED12717D4CD006927B3 /* PredictionViewModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		18971ECB2717D39C006927B3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				1810CD29271A8BD500698611 /* Labels */,
+				181F0DEF2719D6600099EFAC /* Buttons */,
+				1821F67727175EFE00E0446B /* LaunchScreen.storyboard */,
+				1821F66F27175EFB00E0446B /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		18971ECC2717D3A3006927B3 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				1821F66D27175EFB00E0446B /* HomeViewController.swift */,
+				1892851727182C7D00C1B156 /* ResultShowViewController.swift */,
+				1876A562271971E1005BD87C /* DiseasesListViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		18971ECD2717D3BC006927B3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				187AD447271A788200B7551D /* DiseasesList */,
+				1821F67527175EFE00E0446B /* Assets.xcassets */,
+				18971ED32717D4EF006927B3 /* ClassifierModel.mlmodel */,
+				1892851927182CD300C1B156 /* Main */,
+				18971ECE2717D3DF006927B3 /* Extensions */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		18971ECE2717D3DF006927B3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1803B65027198E8A0009B16F /* Date+Extension.swift */,
+				1803B64D27198E8A0009B16F /* UIButton+Extension.swift */,
+				1803B64E27198E8A0009B16F /* UIColor+Extensions.swift */,
+				1803B64F27198E8A0009B16F /* UIImage+Extension.swift */,
+				1803B64C27198E8A0009B16F /* UIView+Extensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -234,8 +379,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				187AD449271A78F400B7551D /* diseasesVn.json in Resources */,
 				1821F67927175EFE00E0446B /* LaunchScreen.storyboard in Resources */,
 				1821F67627175EFE00E0446B /* Assets.xcassets in Resources */,
+				187AD446271A74A000B7551D /* diseasesEn.json in Resources */,
 				1821F67127175EFB00E0446B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,9 +408,26 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1821F66E27175EFB00E0446B /* ViewController.swift in Sources */,
+				1892851827182C7D00C1B156 /* ResultShowViewController.swift in Sources */,
+				1876A563271971E1005BD87C /* DiseasesListViewController.swift in Sources */,
+				182AB13F271AC9B900EB4974 /* LargeLabel.swift in Sources */,
+				1803B65527198E8A0009B16F /* Date+Extension.swift in Sources */,
+				187AD44B271A7CBC00B7551D /* DoneButton.swift in Sources */,
+				18D7C7E3271C68B100F4273D /* BackButton.swift in Sources */,
+				18971ED22717D4CD006927B3 /* PredictionViewModel.swift in Sources */,
+				1803B65427198E8A0009B16F /* UIImage+Extension.swift in Sources */,
+				181F0DF92719D6600099EFAC /* BtnPleinLarge.swift in Sources */,
+				1803B65227198E8A0009B16F /* UIButton+Extension.swift in Sources */,
+				181F0DFB2719D6600099EFAC /* Button.swift in Sources */,
+				1803B65127198E8A0009B16F /* UIView+Extensions.swift in Sources */,
+				1821F66E27175EFB00E0446B /* HomeViewController.swift in Sources */,
+				181F0DFA2719D6600099EFAC /* BtnPlein.swift in Sources */,
 				1821F66A27175EFB00E0446B /* AppDelegate.swift in Sources */,
 				1821F67427175EFB00E0446B /* PlantDiseases.xcdatamodeld in Sources */,
+				181F0DF72719D6600099EFAC /* BtnVideLarge.swift in Sources */,
+				1803B65327198E8A0009B16F /* UIColor+Extensions.swift in Sources */,
+				18971ED42717D4EF006927B3 /* ClassifierModel.mlmodel in Sources */,
+				181F0DF82719D6600099EFAC /* BtnVide.swift in Sources */,
 				1821F66C27175EFB00E0446B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -451,6 +615,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -479,6 +644,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
