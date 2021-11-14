@@ -2,8 +2,16 @@
     "data":
         {
             "name": "Apple Scab"
-            "about": ""
-            "prevention":
+            "about": [
+                "A serious disease of apples that attacks both leaves and fruit. The fungal disease forms pale yellow or olive-green spots on the upper surface of leaves. Dark, velvety spots may appear on the lower surface. Severely infected leaves become twisted and puckered and may drop early.",
+                "Symptoms on fruit are similar to those found on leaves. Scabby spots are sunken and tan and may have velvety spores in the center. As these spots mature, the become larger and turn brown and corky. Infected fruit becomes distored and may crack allowing entry of secondary organisms. Severely affected fruit may drop, especially when young.",
+                "Disease development is favored by wet, cool weather. Fungal spores are carried by wind, rain or splashing water from the ground to flowers, leaves or fruit. During damp or rainy periods, newly opening apple leaves remain wet, the more severe the infection will be."
+            ]
+            "prevention": [
+                "One of the best preventive measure is to use apple scab diseases resistant varieties, to ensure constant and sustainable yields",
+                "Ensure that the leaves are properly pruned to encourage proper airation",
+                "Water in the evening or early morning hours (avoid overhead irrigation) to give the leaves time to dry out before "
+            ]
             "treatment":
         },
         {

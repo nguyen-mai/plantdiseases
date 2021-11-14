@@ -28,14 +28,18 @@
 		1821F68E27175EFE00E0446B /* PlantDiseasesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1821F68D27175EFE00E0446B /* PlantDiseasesUITests.swift */; };
 		1821F69027175EFE00E0446B /* PlantDiseasesUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1821F68F27175EFE00E0446B /* PlantDiseasesUITestsLaunchTests.swift */; };
 		182AB13F271AC9B900EB4974 /* LargeLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 182AB13E271AC9B900EB4974 /* LargeLabel.swift */; };
+		186346AE2737B0EC007DF159 /* ListViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186346AD2737B0EC007DF159 /* ListViewCell.swift */; };
+		186346B02737B775007DF159 /* DetailDiseaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 186346AF2737B775007DF159 /* DetailDiseaseViewController.swift */; };
 		1876A563271971E1005BD87C /* DiseasesListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1876A562271971E1005BD87C /* DiseasesListViewController.swift */; };
 		187AD446271A74A000B7551D /* diseasesEn.json in Resources */ = {isa = PBXBuildFile; fileRef = 187AD445271A74A000B7551D /* diseasesEn.json */; };
 		187AD449271A78F400B7551D /* diseasesVn.json in Resources */ = {isa = PBXBuildFile; fileRef = 187AD448271A78F400B7551D /* diseasesVn.json */; };
 		187AD44B271A7CBC00B7551D /* DoneButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187AD44A271A7CBC00B7551D /* DoneButton.swift */; };
-		1892851827182C7D00C1B156 /* ResultShowViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1892851727182C7D00C1B156 /* ResultShowViewController.swift */; };
+		188B1782274146ED00687DD6 /* AskingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 188B1781274146ED00687DD6 /* AskingViewController.swift */; };
 		18971ED22717D4CD006927B3 /* PredictionViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18971ED12717D4CD006927B3 /* PredictionViewModel.swift */; };
 		18971ED42717D4EF006927B3 /* ClassifierModel.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 18971ED32717D4EF006927B3 /* ClassifierModel.mlmodel */; };
+		18A59A6127410B900034706D /* String+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18A59A6027410B900034706D /* String+Extensions.swift */; };
 		18D7C7E3271C68B100F4273D /* BackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18D7C7E2271C68B100F4273D /* BackButton.swift */; };
+		18DBF03027377E8000261683 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18DBF02F27377E8000261683 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,6 +65,8 @@
 		1803B64E27198E8A0009B16F /* UIColor+Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extensions.swift"; sourceTree = "<group>"; };
 		1803B64F27198E8A0009B16F /* UIImage+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
 		1803B65027198E8A0009B16F /* Date+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		181C2AA427415CB0003EAEC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
+		181C2AA627415CC8003EAEC9 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		181F0DF12719D6600099EFAC /* BtnVideLarge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BtnVideLarge.swift; sourceTree = "<group>"; };
 		181F0DF22719D6600099EFAC /* BtnVide.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BtnVide.swift; sourceTree = "<group>"; };
 		181F0DF42719D6600099EFAC /* BtnPleinLarge.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BtnPleinLarge.swift; sourceTree = "<group>"; };
@@ -81,14 +87,18 @@
 		1821F68D27175EFE00E0446B /* PlantDiseasesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDiseasesUITests.swift; sourceTree = "<group>"; };
 		1821F68F27175EFE00E0446B /* PlantDiseasesUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlantDiseasesUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		182AB13E271AC9B900EB4974 /* LargeLabel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LargeLabel.swift; sourceTree = "<group>"; };
+		186346AD2737B0EC007DF159 /* ListViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewCell.swift; sourceTree = "<group>"; };
+		186346AF2737B775007DF159 /* DetailDiseaseViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailDiseaseViewController.swift; sourceTree = "<group>"; };
 		1876A562271971E1005BD87C /* DiseasesListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiseasesListViewController.swift; sourceTree = "<group>"; };
 		187AD445271A74A000B7551D /* diseasesEn.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = diseasesEn.json; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.json; };
 		187AD448271A78F400B7551D /* diseasesVn.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = diseasesVn.json; sourceTree = "<group>"; };
 		187AD44A271A7CBC00B7551D /* DoneButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DoneButton.swift; sourceTree = "<group>"; };
-		1892851727182C7D00C1B156 /* ResultShowViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultShowViewController.swift; sourceTree = "<group>"; };
+		188B1781274146ED00687DD6 /* AskingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AskingViewController.swift; sourceTree = "<group>"; };
 		18971ED12717D4CD006927B3 /* PredictionViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionViewModel.swift; sourceTree = "<group>"; };
 		18971ED32717D4EF006927B3 /* ClassifierModel.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = ClassifierModel.mlmodel; sourceTree = "<group>"; };
+		18A59A6027410B900034706D /* String+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extensions.swift"; sourceTree = "<group>"; };
 		18D7C7E2271C68B100F4273D /* BackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BackButton.swift; sourceTree = "<group>"; };
+		18DBF02F27377E8000261683 /* ResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -207,10 +217,19 @@
 		1841C6B8271C9A85009B9A96 /* UICommon */ = {
 			isa = PBXGroup;
 			children = (
+				186346AC2737B0C3007DF159 /* Cell */,
 				181F0DEF2719D6600099EFAC /* Buttons */,
 				1810CD29271A8BD500698611 /* Labels */,
 			);
 			path = UICommon;
+			sourceTree = "<group>";
+		};
+		186346AC2737B0C3007DF159 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				186346AD2737B0EC007DF159 /* ListViewCell.swift */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 		187AD447271A788200B7551D /* DiseasesList */ = {
@@ -253,8 +272,10 @@
 			isa = PBXGroup;
 			children = (
 				1821F66D27175EFB00E0446B /* HomeViewController.swift */,
-				1892851727182C7D00C1B156 /* ResultShowViewController.swift */,
+				18DBF02F27377E8000261683 /* ResultViewController.swift */,
 				1876A562271971E1005BD87C /* DiseasesListViewController.swift */,
+				186346AF2737B775007DF159 /* DetailDiseaseViewController.swift */,
+				188B1781274146ED00687DD6 /* AskingViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -279,6 +300,7 @@
 				1803B64E27198E8A0009B16F /* UIColor+Extensions.swift */,
 				1803B64F27198E8A0009B16F /* UIImage+Extension.swift */,
 				1803B64C27198E8A0009B16F /* UIView+Extensions.swift */,
+				18A59A6027410B900034706D /* String+Extensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -416,7 +438,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1892851827182C7D00C1B156 /* ResultShowViewController.swift in Sources */,
+				188B1782274146ED00687DD6 /* AskingViewController.swift in Sources */,
 				1876A563271971E1005BD87C /* DiseasesListViewController.swift in Sources */,
 				182AB13F271AC9B900EB4974 /* LargeLabel.swift in Sources */,
 				1803B65527198E8A0009B16F /* Date+Extension.swift in Sources */,
@@ -427,13 +449,17 @@
 				181F0DF92719D6600099EFAC /* BtnPleinLarge.swift in Sources */,
 				1803B65227198E8A0009B16F /* UIButton+Extension.swift in Sources */,
 				181F0DFB2719D6600099EFAC /* Button.swift in Sources */,
+				18DBF03027377E8000261683 /* ResultViewController.swift in Sources */,
 				1803B65127198E8A0009B16F /* UIView+Extensions.swift in Sources */,
 				1821F66E27175EFB00E0446B /* HomeViewController.swift in Sources */,
 				181F0DFA2719D6600099EFAC /* BtnPlein.swift in Sources */,
+				18A59A6127410B900034706D /* String+Extensions.swift in Sources */,
 				1821F66A27175EFB00E0446B /* AppDelegate.swift in Sources */,
+				186346AE2737B0EC007DF159 /* ListViewCell.swift in Sources */,
 				1821F67427175EFB00E0446B /* PlantDiseases.xcdatamodeld in Sources */,
 				181F0DF72719D6600099EFAC /* BtnVideLarge.swift in Sources */,
 				1803B65327198E8A0009B16F /* UIColor+Extensions.swift in Sources */,
+				186346B02737B775007DF159 /* DetailDiseaseViewController.swift in Sources */,
 				18971ED42717D4EF006927B3 /* ClassifierModel.mlmodel in Sources */,
 				181F0DF82719D6600099EFAC /* BtnVide.swift in Sources */,
 				1821F66C27175EFB00E0446B /* SceneDelegate.swift in Sources */,
@@ -477,6 +503,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				1821F67027175EFB00E0446B /* Base */,
+				181C2AA427415CB0003EAEC9 /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -485,6 +512,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				1821F67827175EFE00E0446B /* Base */,
+				181C2AA627415CC8003EAEC9 /* en */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -496,6 +524,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -557,6 +586,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
